@@ -1,5 +1,8 @@
 #PoC for VulnHub machine Securecode1
+#Vulnable machine author: sud0root
+#Link to vulnerable machine: https://www.vulnhub.com/entry/securecode-1,651/
 #PoC Author: ApexPredator
+#This is an auth bypass to RCE solution for securecode1. It contains spoilers. Use only if stuck.
 import requests
 import argparse
 import sys
