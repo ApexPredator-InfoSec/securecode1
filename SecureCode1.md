@@ -57,7 +57,7 @@ in the user database table
 ![](ScreenShots/image9.png)
 Viewitem.php does not have the include/isAuthenticated.php and does a
 manual check but does not break out from the code if id_level is not set
-and client doesn\'t redirect allowing access to the SQL query where \$id
+and if the client doesn\'t redirect it allows access to the SQL query where \$id
 is not surround with single quotes making it injectable
 
 ![](ScreenShots/image10.png)
@@ -72,7 +72,7 @@ Admin is valid
 
 Attempting to manually navigate to item/viewitem.php in the browser
 redirects to login as expected, if an id is passed a valid id (1) goes
-to black page and invalid (0) redirects to login page
+to blank page and invalid (0) redirects to login page
 
 ![](ScreenShots/image13.png)
 Valid and unvalid item ids determined by the list of item images under
@@ -93,7 +93,7 @@ Test SQL injection with id=1 AND 1=1 (use + instead of spaces)
 
 ![](ScreenShots/image17.png)
 
-404 returned as expected test 1=2 to verify false redirects
+404 returned as expected test 1=2 to verify false redirects with status code 302
 
 ![](ScreenShots/image18.png)
 
