@@ -75,13 +75,13 @@ redirects to login as expected, if an id is passed a valid id (1) goes
 to blank page and invalid (0) redirects to login page
 
 ![](ScreenShots/image13.png)
-Valid and unvalid item ids determined by the list of item images under
+Valid and invalid item ids determined by the list of item images under
 item/image
 
 ![](ScreenShots/image14.png)
 
 When the request is viewed in burp you can see a valid id returns HTTP
-status 404 (as mentioned in the code) and invlaid redirects to login
+status 404 (as mentioned in the code) and invalid redirects to login
 page
 
 ![](ScreenShots/image15.png)
