@@ -47,7 +47,7 @@ customer)
 ![](ScreenShots/image7.png)
 
 Source_code.zip also contains the initial database showing users admin
-and customer and there id_levels
+and customer and their id_levels
 
 ![](ScreenShots/image8.png)
 
