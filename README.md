@@ -19,6 +19,8 @@ The blind SQLi is then used again to enumerate the token. The token is then pass
 The script then logs in and pulls the first flag.
  
 A php reverse shell is then uploaded and executed connecting to the IP and port suppled by the -i and -pt options.
+
+ version 1 poc.py is hardcode to utilize proxy at 127.0.0.1:8080
  
 poc2ab.py is a standalone auth bypass that will use SQLi to pull the admin username, request a reset token, pull token with SQLi, reset the password, login, and pull the first flag. It is an imporvement on the auth bypass in poc.py leveraging a bit shift instead of sequential bruteforce drastically increasing the speed.
  
